@@ -1,0 +1,21 @@
+.ltn__secondary-color, 
+.about-us-img-info h1 .counter, 
+.about-us-img-info h6 span,
+.section-title span,
+.ltn__testimonial-item-5 .ltn__testimonial-info h6,
+.ltn__pricing-plan-item.active-price .pricing-price h2, 
+.ltn__pricing-plan-item.active .pricing-price h2 {
+    color: #1081C7 !important;
+}
+
+.about-us-img-info .dots-bottom,
+.theme-btn-1, .ltn__pricing-plan-item.active-price .btn, 
+.ltn__pricing-plan-item.active .btn,
+.ltn__pricing-plan-item .pricing-badge,
+.slick-arrow-1 .slick-arrow:hover {
+    background-color: #1081C7 !important;
+}
+
+.ltn__section-title-2 p, .slick-arrow-1 .slick-arrow:hover {
+    border-color: #1081C7 !important;
+}
