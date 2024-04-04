@@ -10,15 +10,15 @@
             <source src="{{ asset('frontend/media/1.mp4') }}" type="video/mp4">
         </video>-->
 
-        <!-- YouTube VIDEO -->
+        <!-- YouTube VIDEO 
         <div class="ltn__youtube-video-background">
             <iframe frameborder="0" height="100%" width="100%"
               src="https://www.youtube.com/embed/sfpXASLCNwA?&loop=1&controls=0&start=142&showinfo=0&autoplay=1&mute=1" allow="autoplay" allowFullScreen>
             </iframe>
-        </div>
+        </div>-->
 
         <!-- ltn__slide-item -->
-        <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-30" data-bs-bg="{{ asset('frontend/img/slider/41.jpg') }}">
+        <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-30" data-bs-bg="{{ asset('frontend/img/slider/42.jpeg') }}" style="background-image: url({{ asset('frontend/img/slider/42.jpeg') }});">
             <div class="ltn__slide-item-inner text-center">
                 <div class="container">
                     <div class="row">
@@ -171,6 +171,54 @@
     </div>
 </div>
 <!-- WHY CHOOSE US AREA END -->
+
+<!-- COUNTER STARTS HERE -->
+<div class="ltn__why-choose-us-area bg-dark pt-40 pb-40">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-md-4">
+                <div class="row justify-content-center">
+                    <div class="col-auto text-end">
+                        <span class="fs-3" style="color:#1081C7;"><i class="fa fa-users"></i></span>
+                    </div>
+                    <div class="col-auto text-white">
+                        <h1 class="text-white" style="font-size:45px !important;">
+                            <span class="counter">20</span><span>+</span>
+                        </h1>
+                        <span class="fs-5 fw-bold">Clients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row justify-content-center">
+                    <div class="col-auto text-end">
+                        <span class="fs-3" style="color:#1081C7 !important;"><i class="fa fa-car"></i></span>
+                    </div>
+                    <div class="col-auto text-white">
+                        <h1 class="text-white" style="font-size:45px !important;">
+                            <span class="counter">25</span><span>+</span>
+                        </h1>
+                        <span class="fs-5 fw-bold">Cars</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row justify-content-center">
+                    <div class="col-auto text-end">
+                        <span class="fs-3" style="color:#1081C7 !important;"><i class="fa fa-car"></i></span>
+                    </div>
+                    <div class="col-auto text-white">
+                        <h1 class="text-white" style="font-size:45px !important;">
+                            <span class="counter">100</span><span>%</span>
+                        </h1>
+                        <span class="fs-5 fw-bold">Reliable</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- COUNTER ENDS HERE -->
 
 <!-- PRICING PLAN AREA START -->
 <div class="ltn__pricing-plan-area pt-115 pb-120" id="liton_pricing">
