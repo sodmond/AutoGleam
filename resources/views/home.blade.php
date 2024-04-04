@@ -205,7 +205,7 @@
             <div class="col-4">
                 <div class="row justify-content-center">
                     <div class="col-auto text-end">
-                        <span class="fs-3" style="color:#1081C7 !important;"><i class="fa fa-car"></i></span>
+                        <span class="fs-3" style="color:#1081C7 !important;"><i class="fa fa-shield-alt"></i></span>
                     </div>
                     <div class="col-auto text-white">
                         <h1 class="text-white" style="font-size:45px !important;">
