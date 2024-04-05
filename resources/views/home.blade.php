@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['activePage' => 'home', 'title' => 'Home'])
 
 @section('content')
 <!-- SLIDER AREA START (slider-4) -->
@@ -128,8 +128,8 @@
             <div class="col-lg-6">
                 <div class="why-choose-us-info-wrap">
                     <div class="section-title-area ltn__section-title-2">
-                        <h6 class="section-subtitle ltn__secondary-color">// Why Choose Us</h6>
-                        <h1 class="section-title">Customer First Priority<span>.</span></h1>
+                        <h6 class="section-subtitle ltn__secondary-color">// Our Services</h6>
+                        <h1 class="section-title">Services We Offer<span>.</span></h1>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 col-md-6">
@@ -138,8 +138,8 @@
                                     <i class="icon-car-parts-1"></i>
                                 </div>
                                 <div class="why-choose-us-feature-brief">
-                                    <h3><a href="service-details.html">Get Your Service As Scheduled</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim</p>
+                                    <h3><a href="javascript:void(0)">Personalized Detailing</a></h3>
+                                    <p>Making sure that your car’s interior is always clean will make the driving experience for the members of your family or your business associates more pleasant. we're passionate about cars and even more passionate about making them look their best. Using a blend of traditional techniques and innovative solutions, we offer a suite of services designed to bring out the best in your vehicle. Whether you're looking to rejuvenate your car's appearance or protect it for the long haul, we've got you covered</p>
                                 </div>
                             </div>
                         </div>
@@ -149,11 +149,14 @@
                                     <i class="icon-automobile"></i>
                                 </div>
                                 <div class="why-choose-us-feature-brief">
-                                    <h3><a href="service-details.html">Hardcore Cleaning Service</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim</p>
+                                    <h3><a href="service-details.html">Hand Wash & Blow Dry</a></h3>
+                                    <p>Every service begins with our meticulous hand wash and blow dry process, ensuring every inch of your vehicle is spotless and ready for detailed attention.</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="btn-wrapper">
+                        <a href="{{ route('services') }}" class="btn theme-btn-1 btn-effect-1 text-uppercase">View All</a>
                     </div>
                 </div>
             </div>
@@ -373,41 +376,54 @@
 <div class="ltn__service-form-wrap-area">
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-xl-11 offset-xl-1">
+            <div class="col-xl-12">
                 <div class="ltn__service-form-area ltn__service-form-1 ltn__service-form-margin bg-image bg-overlay-theme-black-60 pt-115 pb-95" data-bs-bg="{{ asset('frontend/img/bg/2.jpg') }}">
                     <div class="row">
                         <div class="col-xl-5 col-lg-12 align-self-center">
                             <div class="ltn__service-form-brief">
                                 <div class="section-title-area ltn__section-title-2 mb-0">
-                                    <h6 class="section-subtitle white-color">// Call To Action</h6>
-                                    <h1 class="section-title white-color">Get An Free Service
-                                        From Us.</h1>
+                                    <h6 class="section-subtitle white-color">// Booking</h6>
+                                    <h1 class="section-title white-color">Schedule an Appointment
+                                        With Us.</h1>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-12 align-self-center">
                             <div class="ltn__service-form-wrap ltn__service-form-color-white">
                                 <form action="#" class="ltn__service-form-box">
-                                    <ul>
-                                        <li>
-                                            <select class="nice-select">
-                                                <option>Service Name</option>
-                                                <option>Car Repair </option>
-                                                <option>Engine Repairing </option>
-                                                <option>Oil Change</option>
-                                                <option>Car Wash</option>
+                                    <div class="row">
+                                        <div class="col-auto py-2">
+                                            <select class="nice-select" required>
+                                                <option value="">Subscription Plan</option>
+                                                <option value="1">Basic</option>
+                                                <option value="2">Silver</option>
+                                                <option value="3">Gold</option>
                                             </select>
-                                        </li>
-                                        <li>
-                                            <div class="input-item input-item-date mb-0 ltn__custom-icon">
-                                                <input type="text" name="date" placeholder="DATE">
+                                        </div>
+                                        <div class="col-auto py-2">
+                                            <div class="input-item input-item-date mb-0">
+                                                <input type="date" name="date" placeholder="DATE" style="border-color:#576466 !important;">
                                             </div>
-                                        </li>
-                                        <li>
+                                        </div>
+                                        <div class="col-auto py-2">
+                                            <select class="nice-select" required>
+                                                <option value="">Select Hours</option>
+                                                @for ($i = 8; $i <= 17; $i++)
+                                                    @if($i == 12)
+                                                        <option value="{{ $i }}">{{ $i }} PM</option>
+                                                    @elseif($i > 12)
+                                                        <option value="{{ $i-12 }}">{{ $i-12 }} PM</option>
+                                                    @else
+                                                        <option value="{{ $i }}">{{ $i }} AM</option>
+                                                    @endif
+                                                @endfor
+                                            </select>
+                                        </div>
+                                        <div class="col-auto py-2">
                                             <div class="btn-wrapper">
                                                 <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Check Availability</button>
                                             </div>
-                                        </li>
+                                        </div>
                                     </ul>                            
                                 </form>
                             </div>
@@ -419,6 +435,28 @@
     </div>
 </div>
 <!-- CALL TO ACTION END -->
+
+<!-- GIFT CARD START -->
+<div class="ltn__call-to-action-area call-to-action-2 pt-60 pb-60" data-bs-bg="img/1.jpg--">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="call-to-action-inner call-to-action-inner-2 text-start">
+                    <div class="row">
+                        <h2>Gift Card</h2>
+                        <p>Unlock the sparkle and shine your vehicle deserves with our exclusive detailing eGift Cards - the perfect surprise for any car enthusiast</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-end">
+                <div class="btn-wrapper">
+                    <a class="btn btn-effect-4 btn-white" href="#">PURCHASE NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- GIFT CARD END -->
 
 <!-- TESTIMONIAL AREA START -->
 <div class="ltn__testimonial-area ltn__testimonial-4 pt-115 pb-100 plr--9">

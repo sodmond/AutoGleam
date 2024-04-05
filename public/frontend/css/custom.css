@@ -4,7 +4,9 @@
 .section-title span,
 .ltn__testimonial-item-5 .ltn__testimonial-info h6,
 .ltn__pricing-plan-item.active-price .pricing-price h2, 
-.ltn__pricing-plan-item.active .pricing-price h2 {
+.ltn__pricing-plan-item.active .pricing-price h2,
+.ltn__breadcrumb-color-white .ltn__breadcrumb-list li:last-child,
+.input-item.ltn__custom-icon::before, .input-item .nice-select::before {
     color: #1081C7 !important;
 }
 
@@ -12,10 +14,18 @@
 .theme-btn-1, .ltn__pricing-plan-item.active-price .btn, 
 .ltn__pricing-plan-item.active .btn,
 .ltn__pricing-plan-item .pricing-badge,
-.slick-arrow-1 .slick-arrow:hover {
+.slick-arrow-1 .slick-arrow:hover,
+.special-link a, .ltn__img-shape-left::before, .ltn__img-shape-right::before {
     background-color: #1081C7 !important;
 }
 
-.ltn__section-title-2 p, .slick-arrow-1 .slick-arrow:hover {
+.ltn__section-title-2 p, .slick-arrow-1 .slick-arrow:hover,
+input[type="text"]:focus, textarea:focus {
     border-color: #1081C7 !important;
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .ltn__header-6 .ltn__main-menu > ul > li > a {
+        font-size: 17px !important;
+    }
 }
