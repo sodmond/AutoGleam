@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="input-item input-item-date mb-0">
+                                <div class="input-item input-item-date">
                                     <input type="date" name="date" placeholder="DATE" style="border-color:#E4ECF2 !important;" required>
                                 </div>
                             </div>

@@ -155,7 +155,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="btn-wrapper">
+                    <div class="btn-wrapper mb-4">
                         <a href="{{ route('services') }}" class="btn theme-btn-1 btn-effect-1 text-uppercase">View All</a>
                     </div>
                 </div>
