@@ -1,7 +1,7 @@
 @extends('layouts.app', ['activePage' => 'services', 'title' => 'What We Do'])
 
 @section('content')
-<div class="ltn__breadcrumb-area ltn__breadcrumb-area-2 ltn__breadcrumb-color-white bg-overlay-theme-black-90 bg-image" data-bs-bg="{{ asset('img/gear-box.jpg') }}" style="background-image: url({{ asset('img/gear-box.jpg') }});">
+<div class="ltn__breadcrumb-area ltn__breadcrumb-area-2 ltn__breadcrumb-color-white bg-overlay-theme-black-90 bg-image" data-bs-bg="{{ asset('frontend/img/slider/42.jpeg') }}" style="background-image: url({{ asset('frontend/img/slider/42.jpeg') }});">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

@@ -76,7 +76,6 @@
                                             <ul>
                                                 <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                                 <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                                
                                                 <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                                                 <li><a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
                                             </ul>
@@ -99,15 +98,6 @@
                             <div class="site-logo">
                                 <a href="{{ url('/') }}"><img src="{{ asset('img/logo.png') }}" alt="Logo" style="max-width:150px;"></a>
                             </div>
-                            {{--<div class="get-support clearfix get-support-color-white">
-                                <div class="get-support-icon">
-                                    <i class="icon-call"></i>
-                                </div>
-                                <div class="get-support-info">
-                                    <h6>Get Support</h6>
-                                    <h4><a href="tel:+123456789">123-456-789-10</a></h4>
-                                </div>
-                            </div>--}}
                         </div>
                     </div>
                     <div class="col header-menu-column menu-color-white">
@@ -117,7 +107,7 @@
                                     <ul style="justify-content:end !important;">
                                         <li><a href="{{ url('/') }}">Home</a></li>
                                         <li><a href="{{ route('services') }}">Services</a></li>
-                                        <li><a href="#">Gift Card</a></li>
+                                        <li><a href="{{ route('giftcard') }}">Gift Card</a></li>
                                         <li><a href="#">Contact</a></li>
                                         <li class="special-link"><a href="{{ route('booking') }}">BOOK NOW</a></li>
                                     </ul>
@@ -157,7 +147,7 @@
                 <ul>
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="{{ route('services') }}">Services</a></li>
-                    <li><a href="#">Gift Card</a></li>
+                    <li><a href="{{ route('giftcard') }}">Gift Card</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="{{ route('booking') }}">Book Now</a></li>
                 </ul>
@@ -250,7 +240,7 @@
                     <div class="col-md-6 col-12">
                         <div class="site-logo-wrap">
                             <div class="site-logo">
-                                <a href="index.html"><img src="{{ asset('frontend/img/logo-2.png') }}" alt="Logo"></a>
+                                <a href="{{ url('/') }}"><img src="{{ asset('img/logo.png') }}" alt="Logo" style="max-width:100px;"></a>
                             </div>
                             <div class="get-support ltn__copyright-design clearfix">
                                 <div class="get-support-info">
@@ -262,11 +252,11 @@
                     </div>
                     <div class="col-md-6 col-12 align-self-center">
                         <div class="ltn__copyright-menu text-end">
-                            <ul>
+                            {{--<ul>
                                 <li><a href="#">Terms & Conditions</a></li>
                                 <li><a href="#">Claim</a></li>
                                 <li><a href="#">Privacy & Policy</a></li>
-                            </ul>
+                            </ul>--}}
                         </div>
                     </div>
                 </div>

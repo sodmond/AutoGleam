@@ -1,13 +1,13 @@
 @extends('layouts.app', ['activePage' => 'services', 'title' => 'What We Do'])
 
 @section('content')
-<div class="ltn__breadcrumb-area ltn__breadcrumb-area-2 ltn__breadcrumb-color-white bg-overlay-theme-black-90 bg-image" data-bs-bg="{{ asset('img/gear-box.jpg') }}" style="background-image: url({{ asset('img/gear-box.jpg') }});">
+<div class="ltn__breadcrumb-area ltn__breadcrumb-area-2 ltn__breadcrumb-color-white bg-overlay-theme-black-90 bg-image" data-bs-bg="{{ asset('frontend/img/slider/42.jpeg') }}" style="background-image: url({{ asset('frontend/img/slider/42.jpeg') }});">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="ltn__breadcrumb-inner ltn__breadcrumb-inner-2 justify-content-between">
                     <div class="section-title-area ltn__section-title-2">
-                        <h6 class="section-subtitle ltn__secondary-color">//  Booking</h6>
+                        <h6 class="section-subtitle ltn__secondary-color">Booking</h6>
                         <h1 class="section-title white-color">Schedule An Appointment</h1>
                     </div>
                     <div class="ltn__breadcrumb-list">
@@ -62,8 +62,8 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="input-item input-item-date">
-                                    <input type="date" name="date" placeholder="DATE" style="border-color:#E4ECF2 !important;" required>
+                                <div class="input-item input-item-date ltn__custom-icon">
+                                    <input type="text" name="date" placeholder="DATE" style="border-color:#E4ECF2 !important;" required>
                                 </div>
                             </div>
                             <div class="col-md-4">

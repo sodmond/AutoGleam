@@ -35,4 +35,9 @@ class HomeController extends Controller
     {
         return view('booking');
     }
+
+    public function giftCard()
+    {
+        return view('gift_card');
+    }
 }

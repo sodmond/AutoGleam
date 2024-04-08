@@ -18,15 +18,14 @@
         </div>-->
 
         <!-- ltn__slide-item -->
-        <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-30" data-bs-bg="{{ asset('frontend/img/slider/42.jpeg') }}" style="background-image: url({{ asset('frontend/img/slider/42.jpeg') }});">
+        <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-30" data-bs-bg="{{ asset('img/gear-box.jpg') }}" style="background-image: url({{ asset('img/gear-box.jpg') }}); background-size:cover; background-repeat:no-repeat;">
             <div class="ltn__slide-item-inner text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 align-self-center">
                             <div class="slide-item-info">
                                 <div class="slide-item-info-inner ltn__slide-animation">
-                                    <h6 class="slide-sub-title white-color animated">// TALENTED ENGINEER & MECHANICS</h6>
-                                    <h1 class="slide-title text-uppercase white-color animated ">Professional Car <br>  Service Provide</h1>
+                                    <h1 class="slide-title text-uppercase white-color animated ">Personalized detailing <br>  with every drop reclaimed</h1>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +41,7 @@
 <div class="ltn__about-us-area pt-80 pb-85">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 align-self-center">
+            {{--<div class="col-lg-6 align-self-center">
                 <div class="about-us-img-wrap about-img-left">
                     <ul class="ltn__parallax-effect-wrap ltn__parallax-effect-active"
                         data-friction-x="0.1"
@@ -94,18 +93,17 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-lg-6 align-self-center">
+            </div>--}}
+            <div class="col-lg-12 align-self-center">
                 <div class="about-us-info-wrap">
                     <div class="section-title-area ltn__section-title-2">
-                        <h6 class="section-subtitle ltn__secondary-color">// About Us</h6>
+                        <h6 class="section-subtitle ltn__secondary-color">About Us</h6>
                         <h1 class="section-title">Get Amazing Service From Us<span>.</span></h1>
-                        <p>As a Black-owned enterprise, our foundation is built on trust and a reflection of our collective identities; we're deeply committed to environmental consciousness. Our mission is to deliver unparalleled expertise and time back to our clients, grounded in empathy. We recognize that your vehicle is more than a means of transport—it reflects your identity.</p>
                     </div>
-
+                    <p>As a Black-owned enterprise, our foundation is built on trust and a reflection of our collective identities; we're deeply committed to environmental consciousness. Our mission is to deliver unparalleled expertise and time back to our clients, grounded in empathy. We recognize that your vehicle is more than a means of transport—it reflects your identity.</p>
                     <p>Our commitment is to enhance your car's aesthetic and preserve its value using the latest in eco-friendly techniques. In today's busy world, where your time is consumed by tasks like cooking, cleaning, and caring for your family, vehicle maintenance often takes a backseat. We're here to change that.</p>
                     <hr>
-                    <div class="about-call-us">
+                    {{--<div class="about-call-us">
                         <div class="call-us-icon">
                             <img src="{{ asset('frontend/img/icons/7.png') }}" alt="Icon Image">
                         </div>
@@ -113,7 +111,7 @@
                             <p>Call us 24/7. We can answer for <a href="#" class="ltn__secondary-color text-decoration"><strong>all your questions</strong></a>.</p>
                             <h2><a href="tel:+123456789">507-452-1254</a> <small> or </small> <a href="tel:+123456789">508-452-1253</a></h2>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
         </div>
@@ -229,7 +227,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title-area ltn__section-title-2 text-center">
-                    <h6 class="section-subtitle ltn__secondary-color">//  Our Price</h6>
+                    <h6 class="section-subtitle ltn__secondary-color">Our Price</h6>
                     <h1 class="section-title">Subscription Plan<span>.</span></h1>
                 </div>
             </div>
@@ -317,7 +315,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title-area ltn__section-title-2 text-center">
-                    <h6 class="section-subtitle ltn__secondary-color">//  Portfolio</h6>
+                    <h6 class="section-subtitle ltn__secondary-color">Portfolio</h6>
                     <h1 class="section-title">We Have Done<span>.</span></h1>
                 </div>
             </div>
@@ -382,7 +380,7 @@
                         <div class="col-xl-5 col-lg-12 align-self-center">
                             <div class="ltn__service-form-brief">
                                 <div class="section-title-area ltn__section-title-2 mb-0">
-                                    <h6 class="section-subtitle white-color">// Booking</h6>
+                                    <h6 class="section-subtitle white-color">Booking</h6>
                                     <h1 class="section-title white-color">Schedule an Appointment
                                         With Us.</h1>
                                 </div>
@@ -464,7 +462,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title-area ltn__section-title-2 text-center">
-                    <h6 class="section-subtitle ltn__secondary-color">//  Testimonials</h6>
+                    <h6 class="section-subtitle ltn__secondary-color">Testimonials</h6>
                     <h1 class="section-title">Clients Feedbacks<span>.</span></h1>
                 </div>
             </div>
