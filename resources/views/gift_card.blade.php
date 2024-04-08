@@ -40,7 +40,7 @@
                             <div class="col-lg-6 align-self-center">
                                 <div class="about-us-info-wrap">
                                     <div class="section-title-area ltn__section-title-2">
-                                        <h6 class="section-subtitle ltn__secondary-color">// Gift Cards</h6>
+                                        <h6 class="section-subtitle ltn__secondary-color">Gift Cards</h6>
                                         <h1 class="section-title">Gift Your Loved Ones<span>.</span></h1>
                                     </div>
                                     <p>Unlock the sparkle and shine your vehicle deserves with our exclusive detailing eGift Cards – the perfect surprise for any car enthusiast</p>

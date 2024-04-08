@@ -7,7 +7,7 @@
             <div class="col-lg-12">
                 <div class="ltn__breadcrumb-inner ltn__breadcrumb-inner-2 justify-content-between">
                     <div class="section-title-area ltn__section-title-2">
-                        <h6 class="section-subtitle ltn__secondary-color">//  Our Services</h6>
+                        <h6 class="section-subtitle ltn__secondary-color">Our Services</h6>
                         <h1 class="section-title white-color">What We Do</h1>
                     </div>
                     <div class="ltn__breadcrumb-list">
@@ -51,7 +51,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title-area ltn__section-title-2 text-center">
-                    <h6 class="section-subtitle ltn__secondary-color">// More Services</h6>
+                    <h6 class="section-subtitle ltn__secondary-color">More Services</h6>
                     <h1 class="section-title">What We Do<span>.</span></h1>
                 </div>
             </div>
@@ -126,7 +126,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title-area ltn__section-title-2 text-center">
-                    <h6 class="section-subtitle ltn__secondary-color">// See Also</h6>
+                    <h6 class="section-subtitle ltn__secondary-color">See Also</h6>
                     <h1 class="section-title">Our Specialty Services<span>.</span></h1>
                 </div>
             </div>

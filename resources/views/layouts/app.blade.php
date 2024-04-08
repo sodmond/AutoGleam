@@ -108,7 +108,7 @@
                                         <li><a href="{{ url('/') }}">Home</a></li>
                                         <li><a href="{{ route('services') }}">Services</a></li>
                                         <li><a href="{{ route('giftcard') }}">Gift Card</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="{{ route('contact') }}">Contact</a></li>
                                         <li class="special-link"><a href="{{ route('booking') }}">BOOK NOW</a></li>
                                     </ul>
                                 </div>
@@ -148,7 +148,7 @@
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="{{ route('services') }}">Services</a></li>
                     <li><a href="{{ route('giftcard') }}">Gift Card</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="{{ route('contact') }}">Contact</a></li>
                     <li><a href="{{ route('booking') }}">Book Now</a></li>
                 </ul>
             </div>

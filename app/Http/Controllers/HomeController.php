@@ -40,4 +40,9 @@ class HomeController extends Controller
     {
         return view('gift_card');
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
 }
