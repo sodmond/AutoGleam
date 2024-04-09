@@ -32,9 +32,6 @@
                             <div class="col-lg-6 align-self-center">
                                 <div class="about-us-img-wrap about-img-left">
                                     <img src="{{ asset('img/gift-card.png') }}" alt="Image">
-                                    <div class="ltn__history-icon">
-                                        <i class="icon-award"></i>
-                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 align-self-center">

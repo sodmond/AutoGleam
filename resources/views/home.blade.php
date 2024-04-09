@@ -126,7 +126,7 @@
             <div class="col-lg-6">
                 <div class="why-choose-us-info-wrap">
                     <div class="section-title-area ltn__section-title-2">
-                        <h6 class="section-subtitle ltn__secondary-color">// Our Services</h6>
+                        <h6 class="section-subtitle ltn__secondary-color">Our Services</h6>
                         <h1 class="section-title">Services We Offer<span>.</span></h1>
                     </div>
                     <div class="row">
@@ -316,7 +316,7 @@
             <div class="col-lg-12">
                 <div class="section-title-area ltn__section-title-2 text-center">
                     <h6 class="section-subtitle ltn__secondary-color">Portfolio</h6>
-                    <h1 class="section-title">We Have Done<span>.</span></h1>
+                    <h1 class="section-title">What We Have Done<span>.</span></h1>
                 </div>
             </div>
         </div>
@@ -353,15 +353,15 @@
             </div>
             <div class="col-lg-12">
                 <div class="ltn__img-slide-item-2">
-                    <a href="{{ asset('frontend/img/img-slide/1.jpg') }}" data-rel="lightcase:myCollection">
-                        <img src="{{ asset('frontend/img/img-slide/1.jpg') }}" alt="Image">
+                    <a href="{{ asset('frontend/img/img-slide/5.jpg') }}" data-rel="lightcase:myCollection">
+                        <img src="{{ asset('frontend/img/img-slide/5.jpg') }}" alt="Image">
                     </a>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="ltn__img-slide-item-2">
-                    <a href="{{ asset('frontend/img/img-slide/2.jpg') }}" data-rel="lightcase:myCollection">
-                        <img src="{{ asset('frontend/img/img-slide/2.jpg') }}" alt="Image">
+                    <a href="{{ asset('frontend/img/img-slide/6.jpg') }}" data-rel="lightcase:myCollection">
+                        <img src="{{ asset('frontend/img/img-slide/6.jpg') }}" alt="Image">
                     </a>
                 </div>
             </div>
