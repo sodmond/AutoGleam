@@ -235,20 +235,22 @@
         <div class="row justify-content-center mt-50">
             <div class="col-lg-4 col-sm-6">
                 <div class="ltn__pricing-plan-item text-center">
-                    <h2 class="pricing-title">Basic</h2>
+                    <h2 class="pricing-title">Bronze</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>49<sub></sub></h2>
+                        <h2><sup>$</sup>297<sub>M</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
                         <li>Vacuum Interior Carpets & Mats</li>
-                        <li>Clean Door Jambs</li>
-                        <li>Clean Windows Inside & Out</li>
-                        <li>Clean & Dress dash, Vents &Trim</li>
+                        <li>Wheel Washing</li>
+                        <li>Exterior Detailing</li>
+                        <li>Seat Shampooing</li>
+                        <li>Decontamination Wash</li>
+                        <li>Clay Bar</li>
                         <li>Clean & Vacuum Trunk</li>
-                        <li>Power wash</li>
-                        <li>Interior spot & stain removal</li>
-                        <li>Free Odor Removal</li>
+                        <li>Bi-Weekly Wash</li>
+                        <li>Interior Spot & Stain Removal</li>
+                        <li>Save 10%</li>
                     </ul>
                     <div class="btn-wrapper">
                         <a href="#" class="theme-btn-2 btn">PURCHASE</a>
@@ -260,19 +262,23 @@
                     <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Silver</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>79</h2>
+                        <h2><sup>$</sup>360<sub>M</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
                         <li>Vacuum Interior Carpets & Mats</li>
-                        <li>Clean Door Jambs</li>
-                        <li>Clean Windows Inside & Out</li>
-                        <li>Clean & Dress dash, Vents &Trim</li>
+                        <li>Wheel Washing</li>
+                        <li>Exterior Detailing</li>
+                        <li>Seat Shampooing</li>
+                        <li>Decontamination Wash</li>
+                        <li>Clay Bar</li>
                         <li>Clean & Vacuum Trunk</li>
-                        <li>Power wash</li>
-                        <li>Interior spot & stain removal</li>
-                        <li>Hand Polish & Protect Rims</li>
-                        <li>Free Odor Removal</li>
+                        <li>Bi-weekly Wash</li>
+                        <li>Interior Spot & Stain Removal</li>
+                        <li>Steam Cleaning</li>
+                        <li>Car Waxing</li>
+                        <li>Carpet Deep Clean</li>
+                        <li>Save 10%</li>
                     </ul>
                     <div class="btn-wrapper">
                         <a href="#" class="theme-btn-2 btn">PURCHASE</a>
@@ -283,21 +289,24 @@
                 <div class="ltn__pricing-plan-item text-center">
                     <h2 class="pricing-title">Gold</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>99<sub></sub></h2>
+                        <h2><sup>$</sup>380<sub>M</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
                         <li>Vacuum Interior Carpets & Mats</li>
-                        <li>Clean Door Jambs</li>
-                        <li>Clean Windows Inside & Out</li>
-                        <li>Clean & Dress dash, Vents &Trim</li>
+                        <li>Wheel Washing</li>
+                        <li>Exterior Detailing</li>
+                        <li>Seat Shampooing</li>
+                        <li>Decontamination Wash</li>
+                        <li>Clay Bar</li>
                         <li>Clean & Vacuum Trunk</li>
-                        <li>Power wash</li>
+                        <li>Bi-weekly wash</li>
                         <li>Interior spot & stain removal</li>
-                        <li>Hand Polish & Protect Rims</li>
-                        <li>Free Odor Removal</li>
-                        <li>Wax Application</li>
-                        <li>Clay Protection</li>
+                        <li>Steam Cleaning</li>
+                        <li>Car Waxing</li>
+                        <li>Carpet Deep Clean</li>
+                        <li>Ceramic coating & more</li>
+                        <li>Save 10%</li>
                     </ul>
                     <div class="btn-wrapper">
                         <a href="#" class="theme-btn-2 btn">PURCHASE</a>
@@ -478,7 +487,7 @@
                             <img src="{{ asset('frontend/img/testimonial/3.jpg') }}" alt="quote">
                         </div>
                         <div class="ltn__testimonial-info">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea commodo.  </p>
+                            <p>The only time Ive seen my car this clean and shinning was from the car dealership…thanks to AutoGleam.</p>
                             <h4>Jacob William</h4>
                             <h6>Manager</h6>
                         </div>
@@ -491,37 +500,9 @@
                             <img src="{{ asset('frontend/img/testimonial/4.jpg') }}" alt="quote">
                         </div>
                         <div class="ltn__testimonial-info">
-                            <p>Quidem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea. </p>
+                            <p>The only time Ive seen my car this clean and shinning was from the car dealership…thanks to AutoGleam</p>
                             <h4>Ethan James</h4>
                             <h6>Admin</h6>
-                        </div>
-                    </div>
-                    
-                    <div class="ltn__testimonial-item-5">
-                        <div class="ltn__quote-icon">
-                            <i class="far fa-comments"></i>
-                        </div>
-                        <div class="ltn__testimonial-image">
-                            <img src="{{ asset('frontend/img/testimonial/6.jpg') }}" alt="quote">
-                        </div>
-                        <div class="ltn__testimonial-info">
-                            <p>Dolor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco nisi ut aliquip ex ea commodo. </p>
-                            <h4>Noah Alexander</h4>
-                            <h6>Professor</h6>
-                        </div>
-                    </div>
-
-                    <div class="ltn__testimonial-item-5">
-                        <div class="ltn__quote-icon">
-                            <i class="far fa-comments"></i>
-                        </div>
-                        <div class="ltn__testimonial-image">
-                            <img src="{{ asset('frontend/img/testimonial/1.jpg') }}" alt="quote">
-                        </div>
-                        <div class="ltn__testimonial-info">
-                            <p>Amet Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  nisi ut aliquip ex ea commodo.  </p>
-                            <h4>Liam Mason</h4>
-                            <h6>Officer</h6>
                         </div>
                     </div>
                 </div>

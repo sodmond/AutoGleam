@@ -40,7 +40,7 @@
                         <img src="{{ asset('frontend/img/icons/11.png') }}" alt="Icon Image">
                     </div>
                     <h3 class="animated fadeIn">Phone Number</h3>
-                    <p>+1 301-860-4000 <br>&nbsp;</p>
+                    <p>+1 (240) 758-2807 <br>&nbsp;</p>
                 </div>
             </div>
             <div class="col-lg-4">

@@ -66,7 +66,7 @@
                 <div class="ltn__pricing-plan-item text-center">
                     <h2 class="pricing-title">The Essentials Package</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>49<sub></sub></h2>
+                        <h2><sup>$</sup>165<sub></sub></h2>
                     </div>
                     <ul>
                         <li>A perfect introduction to car care.</li>
@@ -82,7 +82,7 @@
                     <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">The Deluxe Detail</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>79<sub></sub></h2>
+                        <h2><sup>$</sup>200<sub></sub></h2>
                     </div>
                     <ul>
                         <li>Comprehensive care for your car</li>
