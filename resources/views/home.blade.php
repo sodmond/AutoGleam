@@ -483,6 +483,16 @@
                     <div class="card-body text-center">
                         <p>"The only time Ive seen my car this clean and shinning was from the car dealership…thanks to AutoGleam."</p>
                         <h4>Taiwo.G</h4>
+                        <span style="color:#FFD700;">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                        <span style="color:#FFD700;">
+                            
+                        </span>
                     </div>
                 </div>
             </div>
@@ -491,6 +501,15 @@
                     <div class="card-body text-center">
                         <p>"The only time Ive seen my car this clean and shinning was from the car dealership…thanks to AutoGleam."</p>
                         <h4>Keila.B</h4>
+                        <span style="color:#FFD700;">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                        <span style="color:#FFD700;">
+                            <i class="far fa-star"></i>
+                        </span>
                     </div>
                 </div>
             </div>
