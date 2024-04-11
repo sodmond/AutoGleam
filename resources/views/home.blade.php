@@ -235,6 +235,7 @@
         <div class="row justify-content-center mt-50">
             <div class="col-lg-4 col-sm-6">
                 <div class="ltn__pricing-plan-item text-center">
+                    <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Bronze</h2>
                     <div class="pricing-price">
                         <h2><sup>$</sup>297<sub>/M</sub></h2>
@@ -259,7 +260,6 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="ltn__pricing-plan-item text-center active ---active-price">
-                    <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Silver</h2>
                     <div class="pricing-price">
                         <h2><sup>$</sup>360<sub>/M</sub></h2>
@@ -287,6 +287,7 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="ltn__pricing-plan-item text-center">
+                    <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Gold</h2>
                     <div class="pricing-price">
                         <h2><sup>$</sup>380<sub>/M</sub></h2>
