@@ -478,8 +478,24 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-lg-6">
+                <div class="card shadow rounded py-4">
+                    <div class="card-body text-center">
+                        <p>"The only time Ive seen my car this clean and shinning was from the car dealership…thanks to AutoGleam."</p>
+                        <h4>Taiwo.G</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card shadow rounded py-4">
+                    <div class="card-body text-center">
+                        <p>"The only time Ive seen my car this clean and shinning was from the car dealership…thanks to AutoGleam."</p>
+                        <h4>Keila.B</h4>
+                    </div>
+                </div>
+            </div>
             <div class="col-lg-12">
-                <div class="ltn__testimonial-slider-4 ltn__testimonial-slider-4-active slick-arrow-1">
+                {{--<div class="ltn__testimonial-slider-4 ltn__testimonial-slider-4-active slick-arrow-1">
                     <div class="ltn__testimonial-item-5">
                         <div class="ltn__quote-icon">
                             <i class="far fa-comments"></i>
@@ -512,7 +528,7 @@
                     <li><img src="{{ asset('frontend/img/testimonial/4.jpg') }}" alt="Quote image"></li>
                     <li><img src="{{ asset('frontend/img/testimonial/6.jpg') }}" alt="Quote image"></li>
                     <li><img src="{{ asset('frontend/img/testimonial/1.jpg') }}" alt="Quote image"></li>
-                </ul>
+                </ul>--}}
             </div>
         </div>
     </div>
