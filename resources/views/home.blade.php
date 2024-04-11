@@ -237,7 +237,7 @@
                 <div class="ltn__pricing-plan-item text-center">
                     <h2 class="pricing-title">Bronze</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>297<sub>M</sub></h2>
+                        <h2><sup>$</sup>297<sub>/M</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
@@ -262,7 +262,7 @@
                     <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Silver</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>360<sub>M</sub></h2>
+                        <h2><sup>$</sup>360<sub>/M</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
@@ -289,7 +289,7 @@
                 <div class="ltn__pricing-plan-item text-center">
                     <h2 class="pricing-title">Gold</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>380<sub>M</sub></h2>
+                        <h2><sup>$</sup>380<sub>/M</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
