@@ -31,11 +31,6 @@ class HomeController extends Controller
         return view('services');
     }
 
-    public function booking()
-    {
-        return view('booking');
-    }
-
     public function giftCard()
     {
         return view('gift_card');

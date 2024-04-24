@@ -176,8 +176,8 @@
 <!-- COUNTER STARTS HERE -->
 <div class="ltn__why-choose-us-area bg-dark pt-40 pb-40">
     <div class="container">
-        <div class="row py-4">
-            <div class="col-md-4">
+        <div class="row py-4 justify-content-center">
+            <div class="col-md-4 pb-4">
                 <div class="row justify-content-center">
                     <div class="col-auto text-end">
                         <span class="fs-3" style="color:#1081C7;"><i class="fa fa-users"></i></span>
@@ -190,7 +190,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pb-4">
                 <div class="row justify-content-center">
                     <div class="col-auto text-end">
                         <span class="fs-3" style="color:#1081C7 !important;"><i class="fa fa-car"></i></span>
@@ -203,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4 pb-4">
                 <div class="row justify-content-center">
                     <div class="col-auto text-end">
                         <span class="fs-3" style="color:#1081C7 !important;"><i class="fa fa-shield-alt"></i></span>
@@ -238,7 +238,7 @@
                     <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Bronze</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>297<sub>/M</sub></h2>
+                        <h2><sup>$</sup>297<sub></sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
@@ -262,7 +262,7 @@
                 <div class="ltn__pricing-plan-item text-center active ---active-price">
                     <h2 class="pricing-title">Silver</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>360<sub>/M</sub></h2>
+                        <h2><sup>$</sup>360<sub></sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
@@ -290,7 +290,7 @@
                     <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Gold</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>380<sub>/M</sub></h2>
+                        <h2><sup>$</sup>380<sub></sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
@@ -391,17 +391,17 @@
                             <div class="ltn__service-form-brief">
                                 <div class="section-title-area ltn__section-title-2 mb-0">
                                     <h6 class="section-subtitle white-color">Booking</h6>
-                                    <h1 class="section-title white-color">Schedule an Appointment
-                                        With Us.</h1>
+                                    <h1 class="section-title white-color">Schedule an Appointment With Us.</h1>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-12 align-self-center">
                             <div class="ltn__service-form-wrap ltn__service-form-color-white">
-                                <form action="#" class="ltn__service-form-box">
+                                <form action="{{ route('check_slot') }}" method="POST" class="ltn__service-form-box">
+                                    @csrf
                                     <div class="row">
                                         <div class="col-auto py-2">
-                                            <select class="nice-select" required>
+                                            <select class="nice-select" name="package" required>
                                                 <option value="">Subscription Plan</option>
                                                 <option value="1">Basic</option>
                                                 <option value="2">Silver</option>
@@ -410,19 +410,19 @@
                                         </div>
                                         <div class="col-auto py-2">
                                             <div class="input-item input-item-date mb-0">
-                                                <input type="date" name="date" placeholder="DATE" style="border-color:#576466 !important;">
+                                                <input type="date" name="date" class="cus_date" placeholder="Select Date" style="border-color:#576466 !important;">
                                             </div>
                                         </div>
                                         <div class="col-auto py-2">
-                                            <select class="nice-select" required>
-                                                <option value="">Select Hours</option>
+                                            <select class="nice-select" name="hour" required>
+                                                <option value="">Select Hour</option>
                                                 @for ($i = 8; $i <= 17; $i++)
                                                     @if($i == 12)
-                                                        <option value="{{ $i }}">{{ $i }} PM</option>
+                                                        <option value="{{ $i }} PM">{{ $i }} PM</option>
                                                     @elseif($i > 12)
-                                                        <option value="{{ $i-12 }}">{{ $i-12 }} PM</option>
+                                                        <option value="{{ $i-12 }} PM">{{ $i-12 }} PM</option>
                                                     @else
-                                                        <option value="{{ $i }}">{{ $i }} AM</option>
+                                                        <option value="{{ $i }} AM">{{ $i }} AM</option>
                                                     @endif
                                                 @endfor
                                             </select>
@@ -458,7 +458,7 @@
             </div>
             <div class="col-lg-4 text-end">
                 <div class="btn-wrapper">
-                    <a class="btn btn-effect-4 btn-white" href="#">PURCHASE NOW</a>
+                    <a class="btn btn-effect-4 btn-white" href="{{ route('giftcard') }}">PURCHASE NOW</a>
                 </div>
             </div>
         </div>

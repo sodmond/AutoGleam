@@ -282,6 +282,17 @@
     <script src="{{ asset('frontend/js/plugins.js') }}"></script>
     <!-- Main JS -->
     <script src="{{ asset('frontend/js/main.js') }}"></script>
+    <script>
+        $(document).ready(function () {
+            $('.cus_date').attr('type', 'text');
+            $('.cus_date').focus(function () {
+                $(this).attr('type', 'date');
+            });
+            $('.cus_date').blur(function () {
+                $(this).attr('type', 'text');
+            });
+        })
+    </script>
   
 </body>
 </html>

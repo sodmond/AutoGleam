@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('lastname');
             $table->string('email');
             $table->bigInteger('phone');
-            $table->bigInteger('car_make');
+            $table->string('car_make');
             $table->date('scheduled_date');
             $table->string('hours');
             $table->timestamps();

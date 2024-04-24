@@ -29,54 +29,68 @@
             <div class="col-lg-12">
                 <div class="ltn__form-box contact-form-box box-shadow white-bg">
                     <h4 class="title-2">Complete This Booking Form</h4>
+                    @if (count($errors))
+                        <div class="alert alert-danger">
+                            <strong>Whoops!</strong> Error validating data.<br>
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                    @if (session('success'))
+                        <div class="alert alert-sm alert-success" role="alert"><strong>Success!</strong> {{ session('success') }}</div>
+                    @endif
                     <form id="contact-form" action="" method="post">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-item input-item-name ltn__custom-icon">
-                                    <input type="text" name="firstname" placeholder="Enter your firstname" required>
+                                    <input type="text" name="firstname" placeholder="Enter your firstname" value="{{ old('firstname') }}" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="input-item input-item-name ltn__custom-icon">
-                                    <input type="text" name="lastname" placeholder="Enter your lastname" required>
+                                    <input type="text" name="lastname" placeholder="Enter your lastname" value="{{ old('lastname') }}" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="input-item input-item-email ltn__custom-icon">
-                                    <input type="email" name="email" placeholder="Enter email address" required>
+                                    <input type="email" name="email" placeholder="Enter email address" value="{{ old('email') }}" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="input-item input-item-phone ltn__custom-icon">
-                                    <input type="text" name="phone" placeholder="Enter phone number" required>
+                                    <input type="text" name="phone" placeholder="Enter phone number" value="{{ old('phone') }}" required >
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="input-item">
-                                    <select class="nice-select" required style="display:none;">
+                                    <select class="nice-select" name="package" required style="display:none;">
                                         <option value="">Subscription Plan</option>
-                                        <option value="1">Basic</option>
-                                        <option value="2">Silver</option>
-                                        <option value="3">Gold</option>
+                                        <option value="1" {{ (isset($_GET['package']) && $_GET['package']==1) ? 'selected' : '' }}>Basic</option>
+                                        <option value="2" {{ (isset($_GET['package']) && $_GET['package']==2) ? 'selected' : '' }}>Silver</option>
+                                        <option value="3" {{ (isset($_GET['package']) && $_GET['package']==3) ? 'selected' : '' }}>Gold</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="input-item input-item-date ltn__custom-icon">
-                                    <input type="text" name="date" placeholder="DATE" style="border-color:#E4ECF2 !important;" required>
+                                    <input type="date" name="date" class="cus_date" placeholder="DATE" style="border-color:#E4ECF2 !important;" required value="{{ $_GET['date'] ?? old('date') }}">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="input-item">
-                                    <select class="nice-select" required>
+                                    <select class="nice-select" name="hour" required>
                                         <option value="">Select Hours</option>
                                         @for ($i = 8; $i <= 17; $i++)
                                             @if($i == 12)
-                                                <option value="{{ $i }}">{{ $i }} PM</option>
+                                                <option value="{{ $i }} PM" {{ (isset($_GET['hour']) && $_GET['hour']==$i) ? 'selected' : '' }}>{{ $i }} PM</option>
                                             @elseif($i > 12)
-                                                <option value="{{ $i-12 }}">{{ $i-12 }} PM</option>
+                                                <option value="{{ $i-12 }} PM" {{ (isset($_GET['hour']) && $_GET['hour']==$i) ? 'selected' : '' }}>{{ $i-12 }} PM</option>
                                             @else
-                                                <option value="{{ $i }}">{{ $i }} AM</option>
+                                                <option value="{{ $i }} AM" {{ (isset($_GET['hour']) && $_GET['hour']==$i) ? 'selected' : '' }}>{{ $i }} AM</option>
                                             @endif
                                         @endfor
                                     </select>
@@ -84,12 +98,12 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="input-item input-item-textarea ltn__custom-icon">
-                                    <input type="text" name="car_make" placeholder="Enter car make/model" required>
+                                    <input type="text" name="car_make" placeholder="Enter car make/model" required value="{{ old('car_make') }}">
                                 </div>
                             </div>
                         </div>
                         <div class="input-item input-item-textarea ltn__custom-icon">
-                            <textarea name="message" placeholder="Add Note (Optional)"></textarea>
+                            <textarea name="message" placeholder="Add Note (Optional)">{{ old('message') }}</textarea>
                         </div>
                         <p><label class="input-info-save mb-0"><input type="checkbox" name="agree" required> I agree to the terms & conditions</label></p>
                         <div class="btn-wrapper mt-0">
