@@ -254,7 +254,7 @@
                         <li>Save 10%</li>
                     </ul>
                     <div class="btn-wrapper">
-                        <a href="#" class="theme-btn-2 btn">PURCHASE</a>
+                        <a href="{{ route('booking') }}" class="theme-btn-2 btn">BOOK NOW</a>
                     </div>
                 </div>
             </div>
@@ -281,7 +281,7 @@
                         <li>Save 10%</li>
                     </ul>
                     <div class="btn-wrapper">
-                        <a href="#" class="theme-btn-2 btn">PURCHASE</a>
+                        <a href="{{ route('booking') }}" class="theme-btn-2 btn">BOOK NOW</a>
                     </div>
                 </div>
             </div>
@@ -310,7 +310,7 @@
                         <li>Save 10%</li>
                     </ul>
                     <div class="btn-wrapper">
-                        <a href="#" class="theme-btn-2 btn">PURCHASE</a>
+                        <a href="{{ route('booking') }}" class="theme-btn-2 btn">BOOK NOW</a>
                     </div>
                 </div>
             </div>
