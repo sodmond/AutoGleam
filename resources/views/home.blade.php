@@ -471,8 +471,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title-area ltn__section-title-2 text-center">
-                    <h1 class="section-title">Our Steps<span>.</span></h1>
-                    <h6 class="section-subtitle ltn__secondary-color">How many miles averagely per day do you drive?</h6>
+                    <h6 class="section-subtitle ltn__secondary-color">Tailor your needs to be optimal</h6>
+                    <h1 class="section-title">Gleam AI Assistant<span>.</span></h1>
                 </div>
             </div>
         </div>
