@@ -6,7 +6,8 @@
 .ltn__pricing-plan-item.active-price .pricing-price h2, 
 .ltn__pricing-plan-item.active .pricing-price h2,
 .ltn__breadcrumb-color-white .ltn__breadcrumb-list li:last-child,
-.input-item.ltn__custom-icon::before, .input-item .nice-select::before {
+.input-item.ltn__custom-icon::before, .input-item .nice-select::before,
+.ltn__feature-item-3 .ltn__feature-icon {
     color: #1081C7 !important;
 }
 

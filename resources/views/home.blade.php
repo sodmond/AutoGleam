@@ -238,7 +238,7 @@
                     <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Bronze</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>297<sub></sub></h2>
+                        <h2><sup>$</sup>297<sub>/mo</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
@@ -262,7 +262,7 @@
                 <div class="ltn__pricing-plan-item text-center active ---active-price">
                     <h2 class="pricing-title">Silver</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>360<sub></sub></h2>
+                        <h2><sup>$</sup>360<sub>/mo</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
@@ -290,7 +290,7 @@
                     <span class="pricing-badge">Most Popular</span>
                     <h2 class="pricing-title">Gold</h2>
                     <div class="pricing-price">
-                        <h2><sup>$</sup>380<sub></sub></h2>
+                        <h2><sup>$</sup>430<sub>/mo</sub></h2>
                     </div>
                     <ul>
                         <li>Hand Wash & Blow dry</li>
@@ -466,6 +466,59 @@
 </div>
 <!-- GIFT CARD END -->
 
+<div class="ltn__feature-area pt-115 pb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title-area ltn__section-title-2 text-center">
+                    <h1 class="section-title">Our Steps<span>.</span></h1>
+                    <h6 class="section-subtitle ltn__secondary-color">How many miles averagely per day do you drive?</h6>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="ltn__feature-item ltn__feature-item-3 shadow" style="min-height:100%;">
+                            <div class="ltn__feature-icon">
+                                <span>01</span>
+                            </div>
+                            <div class="ltn__feature-info">
+                                <h2><a href="javascript:void(0)">Car Type</a></h2>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="ltn__feature-item ltn__feature-item-3 shadow" style="min-height:100%;">
+                            <div class="ltn__feature-icon">
+                                <span>02</span>
+                            </div>
+                            <div class="ltn__feature-info">
+                                <h2><a href="javascript:void(0)">Level Of Dirt</a></h2>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="ltn__feature-item ltn__feature-item-3 shadow" style="min-height:100%;">
+                            <div class="ltn__feature-icon">
+                                <span>03</span>
+                            </div>
+                            <div class="ltn__feature-info">
+                                <h2><a href="javascript:void(0)">How Much You Drive</a></h2>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center mt-4 pt-4">This simple ML will help find the optimal recommended service based on collective customer feedbacks.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- TESTIMONIAL AREA START -->
 <div class="ltn__testimonial-area ltn__testimonial-4 pt-115 pb-100 plr--9">
     <div class="container-fluid">
@@ -481,7 +534,7 @@
             <div class="col-lg-6">
                 <div class="card shadow rounded py-4">
                     <div class="card-body text-center">
-                        <p>"The only time Ive seen my car this clean and shinning was from the car dealership…thanks to AutoGleam."</p>
+                        <p>"The only time I've seen my car this clean and shinning was from the car dealership…thanks to AutoGleam."</p>
                         <h4>Taiwo.G</h4>
                         <span style="color:#FFD700;">
                             <i class="fa fa-star"></i>
@@ -499,7 +552,7 @@
             <div class="col-lg-6">
                 <div class="card shadow rounded py-4">
                     <div class="card-body text-center">
-                        <p>"The only time Ive seen my car this clean and shinning was from the car dealership…thanks to AutoGleam."</p>
+                        <p>"pristine work and time conscious."</p>
                         <h4>Keila.B</h4>
                         <span style="color:#FFD700;">
                             <i class="fa fa-star"></i>
